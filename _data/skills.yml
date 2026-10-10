@@ -1,0 +1,14 @@
+# Customize these general-purpose skills to match your experience.
+# Reference skill codes in project front matter, for example: skills: [s2, s4]
+- code: s1
+  label: "Planning and organization"
+- code: s2
+  label: "Research and analysis"
+- code: s3
+  label: "Design and creativity"
+- code: s4
+  label: "Development and implementation"
+- code: s5
+  label: "Problem solving"
+- code: s6
+  label: "Communication and collaboration"
