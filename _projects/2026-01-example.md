@@ -23,7 +23,7 @@ Explain your role, the tools or technologies you used, and whether you worked in
 
 ## Outcome
 
-![Project placeholder]({{ "/images/exemple.svg" | relative_url }})
+![Project placeholder]({{ "/images/placeholder.svg" | relative_url }})
 
 Add links to the source code, live demo, case study, or supporting documentation.
 
