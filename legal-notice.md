@@ -4,7 +4,7 @@ title: Legal Notice
 permalink: /legal/
 ---
 
-<section id="legal-notice" class="profil">
+<section id="legal-notice" class="about-section">
   <h2><span class="sym">~/</span>legal-notice</h2>
   <p>This page is a starting point only. Review and adapt it before publishing to reflect your location, hosting setup, and the services used on your site.</p>
 </section>
