@@ -1,0 +1,26 @@
+title: "Mon Portfolio"
+url: "https://VOTRE-PSEUDO.github.io"
+baseurl: "/Template-portfolio-"
+description: "Portfolio personnel présentant mes projets, compétences et réalisations."
+email: ""
+linkedin: ""
+
+lang: fr
+
+collections:
+  projets:
+    output: true
+    permalink: /projets/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projets
+    values:
+      layout: projet
+
+exclude:
+  - README.md
+  - LICENSE
+
+future: true
