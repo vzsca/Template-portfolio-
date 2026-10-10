@@ -1,47 +1,47 @@
 ---
 layout: default
-title: Mentions légales
-permalink: /mentions-legales/
+title: Legal Notice
+permalink: /legal/
 ---
 
-<section id="mentions-legales" class="profil">
-  <h2><span class="sym">~/</span>mentions-legales</h2>
-  <p>Modèle à personnaliser avant publication : vérifiez les informations relatives à l'éditeur, à l'hébergement, aux données personnelles et aux licences.</p>
+<section id="legal-notice" class="profil">
+  <h2><span class="sym">~/</span>legal-notice</h2>
+  <p>This page is a starting point only. Review and adapt it before publishing to reflect your location, hosting setup, and the services used on your site.</p>
 </section>
 
 <section class="legal-terminal-section">
-  <h2><span class="sym">$</span>cat mentions-legales.md</h2>
+  <h2><span class="sym">$</span>cat legal-notice.md</h2>
   <div class="term legal-terminal">
     <div class="term-bar" aria-hidden="true">
       <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-      <span class="term-title">~/mentions-legales</span>
+      <span class="term-title">~/legal-notice</span>
     </div>
     <section class="legal-grid">
       <article class="legal-card">
-        <h2>Éditeur du site</h2>
+        <h2>Site owner</h2>
         <p><strong>{{ site.title }}</strong></p>
-        <p>Site personnel. Complétez cette rubrique selon votre situation et les obligations qui vous concernent.</p>
-        {% if site.email != "" %}<p>Contact : <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% else %}<p>Ajoutez une adresse de contact dans `_config.yml` si vous souhaitez la publier.</p>{% endif %}
+        <p>Describe who operates this website and provide any details required in your jurisdiction.</p>
+        {% if site.email != "" %}<p>Contact: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% else %}<p>Add a public contact address in <code>_config.yml</code> if appropriate.</p>{% endif %}
       </article>
       <article class="legal-card">
-        <h2>Hébergement</h2>
-        <p>Ce modèle est prévu pour GitHub Pages. Vérifiez les informations d'hébergement et les conditions de service applicables au site publié.</p>
-        <p><a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">Documentation GitHub Pages</a></p>
+        <h2>Hosting</h2>
+        <p>This template is designed for GitHub Pages. Confirm the hosting details and applicable terms for your published site.</p>
+        <p><a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">GitHub Pages documentation</a></p>
       </article>
       <article class="legal-card">
-        <h2>Données personnelles</h2>
-        <p>Décrivez honnêtement les données collectées par votre site et ses services tiers. Ce modèle ne contient pas de formulaire ni d'outil d'audience par défaut ; toute intégration ajoutée doit être prise en compte.</p>
+        <h2>Privacy and data</h2>
+        <p>Explain what data your website and any third-party services collect. This template does not include an analytics service or contact form by default; document any services you add.</p>
       </article>
       <article class="legal-card">
-        <h2>Propriété intellectuelle</h2>
-        <p>Indiquez les licences des textes, images, polices, icônes et autres ressources. Ne publiez que les contenus que vous êtes autorisé à utiliser.</p>
+        <h2>Intellectual property</h2>
+        <p>Identify relevant licenses for text, images, fonts, icons, and other assets. Only publish material you have permission to use.</p>
       </article>
       <article class="legal-card">
-        <h2>Liens externes et responsabilité</h2>
-        <p>Précisez la nature de vos liens externes et les modalités de contact pour signaler une erreur.</p>
+        <h2>External links</h2>
+        <p>Explain the purpose of external links and how visitors can contact you about an issue with the site.</p>
       </article>
     </section>
   </div>
 </section>
 
-<p class="legal-back"><a href="{{ '/' | relative_url }}">← Retour à l'accueil</a></p>
+<p class="legal-back"><a href="{{ '/' | relative_url }}">← Back to home</a></p>
