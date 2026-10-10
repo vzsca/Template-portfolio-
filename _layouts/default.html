@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080d0a">
-  <title>{% if page.title and page.title != "Accueil" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.resume | default: site.description | escape }}">
-  <link rel="stylesheet" href="{{ '/css/style.css?v=26' | relative_url }}">
+  <title>{% if page.title and page.title != "Home" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.summary | default: site.description | escape }}">
+  <link rel="stylesheet" href="{{ '/css/style.css?v=27' | relative_url }}">
 </head>
 <body>
   <header>
     <div class="wrap header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">~/portfolio</a>
-      <nav aria-label="Navigation principale">
-        <a href="{{ '/' | relative_url }}#top">accueil</a>
-        <a href="{{ '/' | relative_url }}#projets">projets</a>
-        <a href="{{ '/' | relative_url }}#competences">compétences</a>
-        <a class="{% if page.url == '/mentions-legales/' %}active{% endif %}" href="{{ '/mentions-legales/' | relative_url }}">mentions légales</a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#top">home</a>
+        <a href="{{ '/' | relative_url }}#projects">projects</a>
+        <a href="{{ '/' | relative_url }}#skills">skills</a>
+        <a class="{% if page.url == '/legal/' %}active{% endif %}" href="{{ '/legal/' | relative_url }}">legal notice</a>
       </nav>
     </div>
   </header>
@@ -25,12 +25,12 @@
 
   <footer>
     <div class="wrap footer-inner">
-      <p>© {{ site.time | date: "%Y" }} {{ site.title }} — textes et captures sous licence <a class="hl" href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></p>
-      <nav aria-label="Navigation de pied de page">
-        <a href="{{ '/' | relative_url }}#projets">projets</a>
-        <a href="{{ '/' | relative_url }}#competences">compétences</a>
-        <a href="{{ '/mentions-legales/' | relative_url }}">mentions légales</a>
-        <a class="hl" href="https://github.com/VOTRE-PSEUDO" target="_blank" rel="noopener noreferrer">github ↗</a>
+      <p>© {{ site.time | date: "%Y" }} {{ site.title }} — adapt the license and attribution for your own content and assets.</p>
+      <nav aria-label="Footer navigation">
+        <a href="{{ '/' | relative_url }}#projects">projects</a>
+        <a href="{{ '/' | relative_url }}#skills">skills</a>
+        <a href="{{ '/legal/' | relative_url }}">legal notice</a>
+        {% if site.github_username != "" and site.github_username != "YOUR-USERNAME" %}<a class="hl" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">github ↗</a>{% endif %}
       </nav>
     </div>
   </footer>
@@ -38,7 +38,7 @@
     (function () {
       var links = document.querySelectorAll('header nav a[href*="#"]');
       if (!('IntersectionObserver' in window)) return;
-      var sections = ['top', 'projets', 'competences'].map(function (id) { return document.getElementById(id); }).filter(Boolean);
+      var sections = ['top', 'projects', 'skills'].map(function (id) { return document.getElementById(id); }).filter(Boolean);
       var observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (!entry.isIntersecting) return;
