@@ -1,30 +1,30 @@
 ---
-title: "Intitulé du projet"
+title: "Project Title"
 date: 2026-01-01
-cadre: "Formation, travail ou projet personnel"
-type: "perso"
-resume: "En une phrase, expliquez ce que vous avez réalisé et pourquoi."
-competences: [c1]
+context: "Personal, academic, or professional"
+type: "other"
+summary: "In one sentence, describe what you made and its purpose."
+skills: [s1, s5]
 ---
 
-## Contexte
+## Overview
 
-Quel était le besoin, le problème ou l'objectif ?
+What was the goal, problem, or opportunity?
 
-## Conditions et moyens
+## Role and tools
 
-Matériel, logiciels, technologies, organisation et travail individuel ou en équipe.
+Describe your contribution, tools, technologies, constraints, and collaborators.
 
-## Description de l'activité
+## Process
 
-1. Première étape réalisée.
-2. Deuxième étape réalisée.
-3. Tests et vérifications effectués.
+1. First key step.
+2. Second key step.
+3. Testing, feedback, or validation.
 
-## Productions et preuves
+## Outcome
 
-Ajoutez des captures dans `images/`, des liens ou des exemples pertinents.
+Add screenshots to `images/`, plus relevant links, examples, or supporting evidence.
 
-## Ce que j'en retiens
+## What I learned
 
-Expliquez les compétences mobilisées, les difficultés rencontrées et ce que vous amélioreriez.
+Describe the skills you used, challenges you encountered, and what you would do differently.
