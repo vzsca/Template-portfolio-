@@ -1,48 +1,50 @@
-# Template de portfolio
+# Portfolio Template
 
-Un portfolio personnel responsive construit avec **Jekyll** et **GitHub Pages**. Le thème sombre inspiré d'un terminal est sobre, sans dépendance JavaScript externe ni police distante.
+A flexible, responsive personal portfolio built with **Jekyll** and **GitHub Pages**. It uses a calm terminal-inspired dark theme, plain CSS, and no external JavaScript or font dependencies.
 
-## Démarrage rapide
+Use it to showcase software projects, creative work, case studies, academic work, professional experience, or personal experiments.
 
-1. Cliquez sur **Use this template** sur GitHub pour créer votre propre dépôt à partir de ce modèle.
-2. Dans `_config.yml`, remplacez `VOTRE-PSEUDO` et `Template-portfolio-` par votre identifiant GitHub et le nom exact du dépôt.
-3. Personnalisez `title`, `description`, `email` et `linkedin`.
-4. Modifiez `index.html` : nom, titre, introduction, profil et liens de contact.
-5. Remplacez ou supprimez le projet d'exemple dans `_projets/`.
-6. Dans GitHub, ouvrez **Settings → Pages** et activez la publication depuis la branche `main`.
-7. Attendez la fin du déploiement et vérifiez le site sur ordinateur et téléphone.
+## Quick start
 
-Pour un dépôt nommé `mon-portfolio`, le `baseurl` doit être `/mon-portfolio`. Pour un site utilisateur `VOTRE-PSEUDO.github.io`, le `baseurl` est généralement vide.
+1. Click **Use this template** on GitHub to create your own repository.
+2. Edit `_config.yml`: set your site title, GitHub username, repository name, email, and optional social links.
+3. Update `index.html` with your name, headline, introduction, and profile.
+4. Replace the example project in `_projects/` with your own work.
+5. Edit `_data/skills.yml` to match the skills you want to showcase.
+6. In GitHub, open **Settings → Pages** and enable deployment from the `main` branch.
+7. Check the published site on desktop and mobile.
 
-## Ajouter un projet
+For a project repository such as `my-portfolio`, set `baseurl: "/my-portfolio"`. For a user site named `YOUR-USERNAME.github.io`, the base URL is usually empty.
 
-1. Copiez `_projets/_A-COPIER.md` vers un nouveau fichier, par exemple `2026-01-mon-projet.md`.
-2. Complétez les métadonnées en haut du fichier : `title`, `date`, `cadre`, `type`, `resume` et `competences`.
-3. Choisissez `type: "ecole"` pour un projet scolaire ou `type: "perso"` pour un projet personnel.
-4. Rédigez le contexte, les moyens utilisés, les étapes, les résultats et le bilan.
-5. Placez les captures dans `images/` et décrivez-les avec un texte alternatif.
-6. Utilisez les codes de compétences définis dans `_data/competences.yml`.
+## Add a project
 
-La page d'accueil classe automatiquement les projets et construit le tableau de compétences à partir des fiches Markdown.
+1. Copy `_projects/_TEMPLATE.md` to a new Markdown file, such as `2026-01-project-name.md`.
+2. Edit its front matter: `title`, `date`, `context`, `type`, `summary`, and `skills`.
+3. Use `type: "featured"` for projects you want to highlight, or `type: "other"` for the remaining projects.
+4. Describe the goal, your role, tools, process, outcome, and what you learned.
+5. Add screenshots to `images/` and provide meaningful alt text.
+6. Use skill codes defined in `_data/skills.yml`.
 
-## Structure
+The homepage automatically lists projects and builds the skills matrix from each project's Markdown front matter.
 
-- `index.html` — page d'accueil, profil, projets, compétences et contact
-- `_projets/` — fiches projets Markdown
-- `_layouts/default.html` — navigation et pied de page communs
-- `_layouts/projet.html` — modèle des fiches projets
-- `_data/competences.yml` — référentiel de compétences personnalisable
-- `css/style.css` — palette, composants et mise en page responsive
-- `images/` — images et captures
-- `mentions-legales.md` — exemple de mentions légales à adapter
-- `_config.yml` — configuration Jekyll et coordonnées
+## Project structure
 
-## Personnalisation
+- `index.html` — homepage, profile, projects, skills, and contact
+- `_projects/` — Markdown project pages
+- `_layouts/default.html` — shared navigation and footer
+- `_layouts/project.html` — individual project page layout
+- `_data/skills.yml` — editable skills list
+- `css/style.css` — theme, components, and responsive layout
+- `images/` — screenshots and other images
+- `legal-notice.md` — starter legal notice to adapt
+- `_config.yml` — Jekyll configuration and contact details
 
-La palette est définie au début de `css/style.css` dans `:root`, notamment avec `--bg`, `--panel`, `--text`, `--muted` et `--green`.
+## Customize the design
 
-Adaptez les mentions légales à votre situation et à vos services réels. Le fichier fourni est un exemple, pas un conseil juridique.
+The color palette is near the top of `css/style.css`, in `:root`. Common variables include `--bg`, `--panel`, `--text`, `--muted`, and `--green`.
 
-## Licence
+The legal notice is a starting point, not legal advice. Adapt it to your location, hosting provider, and the services you actually use.
 
-Le code du template est publié sous licence MIT. Les textes, images et ressources ajoutés par chaque utilisateur restent sous la responsabilité de leur auteur et peuvent avoir des licences différentes.
+## License
+
+The template code is released under the MIT License. Content, images, and third-party assets you add may have separate copyright or license terms.
