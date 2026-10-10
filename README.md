@@ -47,4 +47,4 @@ The legal notice is a starting point, not legal advice. Adapt it to your locatio
 
 ## License
 
-The template code is released under the MIT License. Content, images, and third-party assets you add may have separate copyright or license terms.
+This template is released under the [MIT License](LICENSE). You may use, modify, and redistribute it, including for commercial projects, as long as you retain the copyright notice and license text in copies or substantial portions of the template. **Credit the original template author by keeping the `vzsca` copyright notice in the `LICENSE` file.** Content, images, and third-party assets you add may have separate copyright or license terms.
