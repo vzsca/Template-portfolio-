@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
-  <title id="title">Illustration de remplacement</title>
-  <desc id="desc">Carte sombre invitant à remplacer cette image par une capture du projet.</desc>
+  <title id="title">Project placeholder</title>
+  <desc id="desc">A dark placeholder card inviting you to add a screenshot of your work.</desc>
   <rect width="800" height="420" rx="14" fill="#080d0a"/>
   <rect x="1" y="1" width="798" height="418" rx="13" fill="none" stroke="#1c2b22" stroke-width="2"/>
   <rect x="24" y="24" width="752" height="38" rx="5" fill="#162a1f"/>
   <circle cx="43" cy="43" r="5" fill="#ff5f56"/><circle cx="61" cy="43" r="5" fill="#f5c451"/><circle cx="79" cy="43" r="5" fill="#4ade80"/>
-  <text x="400" y="190" fill="#dfe9e0" font-family="monospace" font-size="28" text-anchor="middle">Votre projet ici</text>
-  <text x="400" y="232" fill="#7f9185" font-family="monospace" font-size="16" text-anchor="middle">Remplacez cette illustration par une capture.</text>
-  <text x="400" y="372" fill="#4ade80" font-family="monospace" font-size="14" text-anchor="middle">~/images/exemple.svg</text>
+  <text x="400" y="190" fill="#dfe9e0" font-family="monospace" font-size="28" text-anchor="middle">Your project here</text>
+  <text x="400" y="232" fill="#7f9185" font-family="monospace" font-size="16" text-anchor="middle">Replace this image with a project screenshot.</text>
+  <text x="400" y="372" fill="#4ade80" font-family="monospace" font-size="14" text-anchor="middle">~/images/placeholder.svg</text>
 </svg>
