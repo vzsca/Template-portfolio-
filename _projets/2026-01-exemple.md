@@ -1,32 +1,32 @@
 ---
-title: "Exemple de projet"
+title: "Example Project"
 date: 2026-01-01
-cadre: "Projet personnel"
-type: "perso"
-resume: "Remplacez cette phrase par un résumé clair du projet et de son objectif."
-competences: [c4]
+context: "Personal project"
+type: "featured"
+summary: "Replace this sentence with a clear summary of what you created and why."
+skills: [s2, s4, s5]
 ---
 
-## Contexte
+## Overview
 
-Expliquez le besoin ou le problème auquel répond le projet.
+What need, question, or opportunity inspired this project? Describe the goal and who it is for.
 
-## Conditions et moyens
+## Role and tools
 
-Présentez le matériel, les logiciels, les technologies et le cadre de réalisation.
+Explain your role, the tools or technologies you used, and whether you worked independently or with others.
 
-## Description de l'activité
+## Process
 
-1. Décrivez une étape réellement effectuée.
-2. Expliquez les choix techniques importants.
-3. Précisez les tests ou vérifications réalisés.
+1. Describe a meaningful step you completed.
+2. Explain an important decision or design choice.
+3. Outline how you tested, reviewed, or evaluated the result.
 
-## Productions et preuves
+## Outcome
 
-![Illustration du projet]({{ "/images/exemple.svg" | relative_url }})
+![Project placeholder]({{ "/images/exemple.svg" | relative_url }})
 
-Ajoutez ici des liens vers le dépôt, une démonstration ou une documentation.
+Add links to the source code, live demo, case study, or supporting documentation.
 
-## Ce que j'en retiens
+## What I learned
 
-Décrivez ce que vous avez appris, les difficultés rencontrées et les améliorations possibles.
+Summarize the skills you practiced, the challenges you faced, and what you would improve next time.
