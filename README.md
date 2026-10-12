@@ -35,6 +35,7 @@ The homepage automatically lists projects and builds the skills matrix from each
 - `_layouts/project.html` — individual project page layout
 - `_data/skills.yml` — editable skills list
 - `css/style.css` — theme, components, and responsive layout
+- `js/navigation.js` — active-section navigation, loaded with `defer`
 - `images/` — screenshots and other images
 - `legal-notice.md` — starter legal notice to adapt
 - `_config.yml` — Jekyll configuration and contact details
